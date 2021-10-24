@@ -1,7 +1,7 @@
 defmodule Structure.Type do
   defmacro __using__(_opts) do
     quote do
-      require __MODULE__
+      require Structure.Type
       alias Structure.Type
 
       defstruct [:inner]
